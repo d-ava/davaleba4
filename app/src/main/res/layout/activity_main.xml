@@ -4,7 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#FFE8E8"
+    >
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/circle_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="10dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="130dp"
+        android:background="@drawable/circle_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="10dp"
+
+        />
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -17,12 +48,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:translationZ="-10dp"
+
         />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_margin="110dp"
+        android:layout_margin="120dp"
         android:background="@drawable/circle_center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
@@ -63,9 +96,11 @@
         android:textStyle="bold"
         android:textSize="18sp"
         app:layout_constraintCircle="@id/btnCenter"
-        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleAngle="100"
         app:layout_constraintCircleRadius="@dimen/btnTextRadius"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        android:translationZ="15dp"
+        />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnF"
@@ -77,6 +112,20 @@
         app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:textColor="@color/LDR"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="145"
+        app:layout_constraintCircleRadius="@dimen/btnTextRadius"
+        tools:ignore="MissingConstraints"
+        android:translationZ="15dp"
+        />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnG"
         android:layout_width="@dimen/btnWH"
@@ -86,6 +135,20 @@
         app:layout_constraintCircleAngle="190"
         app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:textColor="@color/LDR"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="190"
+        app:layout_constraintCircleRadius="@dimen/btnTextRadius"
+        tools:ignore="MissingConstraints"
+        android:translationZ="15dp"
+        />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnH"
@@ -97,6 +160,20 @@
         app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H"
+        android:textColor="@color/LDR"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="235"
+        app:layout_constraintCircleRadius="@dimen/btnTextRadius"
+        tools:ignore="MissingConstraints"
+        android:translationZ="15dp"
+        />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnA"
         android:layout_width="@dimen/btnWH"
@@ -107,6 +184,20 @@
         app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textColor="@color/LDR"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="280"
+        app:layout_constraintCircleRadius="@dimen/btnTextRadius"
+        tools:ignore="MissingConstraints"
+        android:translationZ="15dp"
+        />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnB"
         android:layout_width="@dimen/btnWH"
@@ -116,6 +207,19 @@
         app:layout_constraintCircleAngle="325"
         app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:textColor="@color/LDR"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="325"
+        app:layout_constraintCircleRadius="@dimen/btnTextRadius"
+        tools:ignore="MissingConstraints"
+        android:translationZ="15dp"
+        />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnC"
@@ -127,6 +231,20 @@
         app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textColor="@color/LDR"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="10"
+        app:layout_constraintCircleRadius="@dimen/btnTextRadius"
+        tools:ignore="MissingConstraints"
+        android:translationZ="15dp"
+        />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnD"
         android:layout_width="@dimen/btnWH"
@@ -137,17 +255,21 @@
         app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="110dp"
-        android:background="@drawable/circle_center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:textColor="@color/LDR"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="55"
+        app:layout_constraintCircleRadius="@dimen/btnTextRadius"
+        tools:ignore="MissingConstraints"
+        android:translationZ="15dp"
         />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
