@@ -10,21 +10,21 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_margin="10dp"
         android:background="@drawable/circle1"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="10dp"
 
-        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="parent"
 
         />
 
     <ImageView
         android:id="@+id/btnCenter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
         android:src="@drawable/ic_ld_r_heart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,31 +32,99 @@
         app:layout_constraintTop_toTopOf="parent"
 
 
-
         />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnE"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
         android:background="@drawable/ic_ld_r_cup_o_death"
         app:layout_constraintCircle="@id/btnCenter"
-        app:layout_constraintCircleRadius="@dimen/btnRadius"
         app:layout_constraintCircleAngle="100"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
+        tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:textColor="@color/LDR"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
+        tools:ignore="MissingConstraints"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnF"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
+        android:background="@drawable/ic_ld_r_devil_kitty"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="145"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/circle1"
+        android:id="@+id/btnG"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
+        android:background="@drawable/ic_ld_r_killing_star"
         app:layout_constraintCircle="@id/btnCenter"
-        app:layout_constraintCircleRadius="150dp"
-        app:layout_constraintCircleAngle="45"
+        app:layout_constraintCircleAngle="190"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
         tools:ignore="MissingConstraints" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnH"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
+        android:background="@drawable/ic_ld_r_ofer_s_pet_snake"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="235"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
+        tools:ignore="MissingConstraints" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnA"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
+        android:background="@drawable/ic_ld_r_ofer_s_slimeburger"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="280"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
+        tools:ignore="MissingConstraints" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnB"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
+        android:background="@drawable/ic_ld_r_ofer_s_eye"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="325"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnC"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
+        android:background="@drawable/ic_ld_r_x"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="10"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnD"
+        android:layout_width="@dimen/btnWH"
+        android:layout_height="@dimen/btnWH"
+        android:background="@drawable/ic_ld_r_screamer"
+        app:layout_constraintCircle="@id/btnCenter"
+        app:layout_constraintCircleAngle="55"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
