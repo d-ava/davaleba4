@@ -91,7 +91,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="E"
+        android:text="@string/e"
         android:textColor="@color/LDR"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -115,7 +115,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="F"
+        android:text="@string/f"
         android:textColor="@color/LDR"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -139,7 +139,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="G"
+        android:text="@string/g"
         android:textColor="@color/LDR"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -163,7 +163,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="H"
+        android:text="@string/h"
         android:textColor="@color/LDR"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -187,7 +187,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A"
+        android:text="@string/a"
         android:textColor="@color/LDR"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -210,7 +210,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="B"
+        android:text="@string/b"
         android:textColor="@color/LDR"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -234,7 +234,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C"
+        android:text="@string/c"
         android:textColor="@color/LDR"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -258,7 +258,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="D"
+        android:text="@string/d"
         android:textColor="@color/LDR"
         android:textStyle="bold"
         android:textSize="18sp"
