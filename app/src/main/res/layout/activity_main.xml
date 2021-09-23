@@ -8,13 +8,16 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@drawable/circle1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+
+        app:layout_constraintDimensionRatio="1:1"
 
         />
 
@@ -28,6 +31,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
+
+
         />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -37,6 +42,7 @@
         app:layout_constraintCircle="@id/btnCenter"
         app:layout_constraintCircleRadius="150dp"
         app:layout_constraintCircleAngle="90"
+
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
