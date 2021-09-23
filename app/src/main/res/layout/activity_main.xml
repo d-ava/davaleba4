@@ -25,7 +25,7 @@
         android:id="@+id/btnCenter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/ic_ld_r_heart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,12 +36,13 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnE"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@drawable/circle1"
+        android:background="@drawable/ic_ld_r_cup_o_death"
         app:layout_constraintCircle="@id/btnCenter"
-        app:layout_constraintCircleRadius="150dp"
-        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="@dimen/btnRadius"
+        app:layout_constraintCircleAngle="100"
 
         tools:ignore="MissingConstraints" />
 
